@@ -17,5 +17,4 @@ Abrir notebook en VS Code (o cualquier IDE) y abrir el ambiente creado anteriorm
 
 
 ## Autor
-Escobares Cristhian Daniel
-cristhian.escobares@ig.edu.ar
+Escobares Cristhian Daniel $\to$ cristhian.escobares@ig.edu.ar
