@@ -243,6 +243,7 @@ dependencies:
 - poppler-data=0.4.12=hd8ed1ab_0
 - postgresql=16.3=h8e811e2_0
 - proj=9.4.0=h1d62c97_1
+- proj-data=1.17=hd8ed1ab_0
 - prometheus_client=0.20.0=pyhd8ed1ab_0
 - prompt-toolkit=3.0.42=pyha770c72_0
 - prompt_toolkit=3.0.42=hd8ed1ab_0
