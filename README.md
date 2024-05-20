@@ -13,11 +13,10 @@ Previo se realiza un preprocesamiento de los datos, según la tabla de la banda 
 
 Quedándonos con los datos que no son rellenados, y no poseen ningún tipo de nubes, es decir:
 
-+ Bit 0 = 0
-+ Bit 1 = 0
-+ Bit 2 = 0
-+ Bit 3 = 0
-+ Bit 4 = 0
++ Bit 0 = 0 $\to$ Sin datos rellenados
++ Bit 2 = 0 $\to$ Sin nubes Cirrus
++ Bit 3 = 0 $\to$ Sin nubes
++ Bit 4 = 0 $\to$ Sin sombras de nubes
 
 ## 1) Instalar environment
 A partir del archivo MAIE-Escobares-env.yml instalar el ambiente de trabajo (1.1 GB de descarga), para ello utilizar:
