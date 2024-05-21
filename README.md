@@ -41,7 +41,7 @@ Abrir notebook en VS Code (o cualquier IDE) el archivo tpFinal.ipynb que se encu
 + fecha = '2024-02-10' $\to$ Ejemplo con nubes densa
 
 ## 3) Consideraciones
-Se recomienda colocar la fecha deseada y luego "Run All" o "Ejecutar todo" y luego ir visualizando los gráficos en las celdas de salida. De todas formas, se generará una carpeta ***plots*** en el directorio donde se encuentre el .ipynb, donde se guardarán todos los gráficos generados
+Se recomienda colocar la fecha deseada y luego "Run All" o "Ejecutar todo" y luego ir visualizando los gráficos en las celdas de salida. De todas formas, se generará una carpeta ***plots*** en el directorio donde se encuentre el .ipynb, donde se guardarán todos los gráficos generados, tanto en png como en tif.
 
 ## Autor
 Escobares Cristhian Daniel $\to$ cristhian.escobares@ig.edu.ar
