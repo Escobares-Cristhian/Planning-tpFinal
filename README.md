@@ -2,13 +2,13 @@
 ## 0) Introducción
 Repositorio creado para resolver el trabajo final de la materia Planning de la MAIE. En el cual se realiza el enmascaramiento con MNDWI de agua/no-agua en el Dique Los Molinos para una fecha dada, luego con dicho recorte se genera un polígono, se recortan las bandas y se calcula en NDVI para el recorte, se utilizan las siguientes fórmulas para Landsat 8:
 
-\[
-MNDWI = \frac{Banda 3 \;\;–\;\;Banda 6}{Banda 3 \;\;+\;\; Banda 6}
-\]
 
-\[
-NDVI = \frac{Banda 5 \;\;–\;\; Banda 4}{Banda 5 \;\;+\;\; Banda 4}
-\]
+$MNDWI = \frac{Banda 3 - Banda 6}{Banda 3 + Banda 6}$
+
+
+
+$NDVI = \frac{Banda 5 – Banda 4}{Banda 5 + Banda 4}$
+
 
 Previo se realiza un preprocesamiento de los datos, según la tabla de la banda de calidad **QA_PIXEL**, dicha tabla se encuentra en la página 13 del manual: https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/LSDS-1619_Landsat8-9-Collection2-Level2-Science-Product-Guide-v5.pdf
 
