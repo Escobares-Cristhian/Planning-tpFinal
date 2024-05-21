@@ -24,6 +24,9 @@ Quedándonos con los datos que no son rellenados, y no poseen ningún tipo de nu
 A partir del archivo MAIE-Escobares-env.yml instalar el ambiente de trabajo (1.1 GB de descarga), para ello utilizar:
 
 ```bash
+# Actualizar buffer de git
+git config --global http.postBuffer 157286400
+
 # En Conda:
 conda env create --name MAIE-Escobares-env --file=MAIE-Escobares-env.yml
 
@@ -32,7 +35,7 @@ micromamba env create -n MAIE-Escobares-env -f MAIE-Escobares-env.yaml
 ```
 
 ## 2) Abrir Notebook
-Abrir notebook en VS Code (o cualquier IDE) y abrir el ambiente creado anteriormente. Seleccionar la fecha a procesar, se recomiendan:
+Abrir notebook en VS Code (o cualquier IDE) el archivo tpFinal.ipynb que se encuentra en la carpeta madre del repositorio. Luego abrir el ambiente creado anteriormente. Seleccionar la fecha a procesar, se recomiendan:
 + fecha = '2023-01-06' $\to$ Ejemplo despejado
 + fecha = '2023-05-14' $\to$ Ejemplo con nubes débiles
 + fecha = '2024-02-10' $\to$ Ejemplo con nubes densa
